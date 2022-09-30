@@ -1,0 +1,263 @@
+.product-main {
+  padding: 30px 0px;
+}
+
+.product-main h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 2.5rem;
+}
+
+.add_product_Section {
+  padding: 10px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: space-around;
+  background: #fff;
+}
+
+.add_product_Section .product_left_container {
+  margin: 10px 0px;
+}
+
+.add_product_Section .product_left_container .form-label {
+  margin-top: 10px !important;
+  font-size: 14px !important;
+  font-weight: bold;
+}
+
+.add_product_Section .product_left_container .form-control {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.13) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  background: rgb(253, 251, 251) !important;
+  border: 0 !important;
+  border-radius: 2px !important;
+  font-size: 15px !important;
+}
+
+.add_product_Section .product_left_container .form-control:focus {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgb(49, 129, 235) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+.add_product_Section .product_left_container .form-control::placeholder {
+  color: rgb(170, 158, 158) !important;
+}
+
+.add_product_Section .product_right_container .form-control {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.13) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  background: rgb(253, 251, 251) !important;
+  border: 0 !important;
+  border-radius: 2px !important;
+  font-size: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+.add_product_Section .product_right_container .form-control:focus {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgb(49, 129, 235) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+.add_product_Section .product_right_container .form-control::placeholder {
+  color: rgb(170, 158, 158) !important;
+}
+
+.add_product_Section .product_right_container {
+  margin: 10px 0px;
+}
+
+.add_product_Section .product_right_container .form-label {
+  margin-top: 10px !important;
+  font-size: 14px !important;
+  font-weight: bold;
+}
+
+.add_product_Section .product_right_container .image-upload {
+  margin-top: 10px !important;
+}
+
+/* select categories start */
+.add_product_Section .product_right_container .select-product {
+  position: relative;
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.13) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  background: rgb(253, 251, 251) !important;
+  outline: none !important;
+  border-radius: 2px !important;
+  border: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.add_product_Section .product_right_container .select-product:focus {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgb(49, 129, 235) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+.add_product_Section
+  .product_right_container
+  .select-product
+  .form-select-categories {
+  width: 100%;
+  outline: none !important;
+  font-size: 15px !important;
+  border: none !important;
+  border-bottom: none !important;
+  color: #000 !important;
+  border-radius: 4px !important;
+}
+
+.add_product_Section
+  .product_right_container
+  .select-product
+  .form-select-categories
+  .MuiInputBase-input {
+  padding: 9px !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: none !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: none !important;
+}
+
+.add_product_Section
+  .product_right_container
+  .select-product
+  .form-select-categories
+  .MuiInputBase-input:focus {
+  border: none !important;
+  outline: none !important;
+  background-color: #ffffff !important;
+}
+
+.add_product_Section .product_right_container .select-product .custom-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background-color: #ff5e14;
+  height: 100%;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 4em;
+  pointer-events: none;
+}
+
+.add_product_Section
+  .product_right_container
+  .select-product
+  .custom-arrow::before,
+.add_product_Section
+  .product_right_container
+  .select-product
+  .custom-arrow::after {
+  --size: 0.4em;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.add_product_Section
+  .product_right_container
+  .select-product
+  .custom-arrow::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid #fff;
+  top: 30%;
+}
+
+.add_product_Section
+  .product_right_container
+  .select-product
+  .custom-arrow::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid #fff;
+  top: 65%;
+}
+/* select categories closed */
+
+/* // img preview section // */
+.add_product_Section .product_right_container .image-container {
+  margin: 5px;
+  padding: 5px;
+}
+
+.add_product_Section
+  .product_right_container
+  .image-container
+  input[type="file"] {
+  display: none;
+}
+
+.add_product_Section
+  .product_right_container
+  .image-container
+  .custom-file-upload
+  .fa-camera {
+  cursor: pointer !important;
+  font-size: 60px;
+  color: #000;
+}
+
+.add_product_Section .product_right_container .image-container span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+.main-render-div-img {
+  position: relative;
+}
+
+.renderImages {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.product-preview-images {
+  width: 105px;
+  height: 95px;
+  margin: 2px;
+}
+
+.product-image-remove-btn {
+  background: rgb(227, 221, 221) !important;
+  border-radius: 50px !important;
+  color: #000 !important;
+  width: 32px;
+  height: 32px;
+  right: 4px;
+  top: 4px;
+  display: block;
+  position: absolute;
+}
+
+.product-image-remove-btn .fa-times {
+  font-size: 15px;
+  color: #000 !important;
+}
+/* // img preview section // */
+
+.add_product_Section .product_right_container .add_product_button {
+  background: #ff5e14 !important;
+  font-size: 16px !important;
+  border-radius: 3px !important;
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+.add_product_Section .product_right_container .add_product_button:hover {
+  background: #d3561d !important;
+}

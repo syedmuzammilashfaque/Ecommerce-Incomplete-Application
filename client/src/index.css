@@ -1,0 +1,26 @@
+body {
+  font-family: "Gill Sans", sans-serif;
+  background: rgb(245, 245, 245) !important;
+}
+
+.btn,
+input {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.btn,
+input,
+.btn:active,
+input:active,
+input:focus,
+.btn:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.theme-divider {
+  margin-top: 10px !important;
+}

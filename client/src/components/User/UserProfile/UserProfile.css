@@ -1,0 +1,82 @@
+.user-profile-main {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    border-radius: 4px;
+    background-color: #fff !important;
+}
+
+.user-profile-main .user-profile-left {
+    margin-top: 10px;
+}
+
+.user-profile-main .user-profile-left h5{
+font-size: 25px;
+margin-bottom: 10px;
+color:rgb(59, 56, 78)
+}
+
+.user-profile-main .user-profile-left .dropdown{
+    width: 100%;
+    border-radius: 3px !important;
+    background-color: #ff5e14 !important;
+}
+
+.user-profile-main .user-profile-left .dropdown-toggle {
+    margin-top: 4px !important;
+    background-color: #ff5e14 !important;
+    border-radius: 4px !important;
+    text-decoration: none;
+    font-size: 17px !important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .user-profile-main .user-profile-left .dropdown-toggle .dropdown-toggle-icon:hover {
+    color: #ff5e14 !important;
+    font-size: 25px !important;
+  }
+
+  .user-profile-main .user-profile-left .dropdown-menu {
+    color: #000 !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    background: rgb(255, 255, 255) !important;  transition: .5s !important;
+  width: 100%;
+  z-index: 99999 !important;
+  }
+  .user-profile-main .user-profile-left .dropdown-menu .dropDownItem a{
+      color: #000 !important;
+      padding: 10px !important;
+      text-decoration: none !important;
+  }
+  .user-profile-main .user-profile-left .dropdown-menu .dropDownItem{
+    padding: 10px !important;
+  }
+
+  .user-profile-main .user-profile-left .dropdown-menu .dropDownItem:hover {
+    background: rgb(238, 238, 238) !important;
+  }
+  .user-profile-main .user-profile-left .dropdown-menu .dropDownItem:active {
+    background: rgb(238, 238, 238) !important;
+  }
+
+  /* right section dashboard start  */
+
+  .user-profile-main .user-profile-right {
+      margin-top: 30px !important;
+  }
+
+  .user-profile-main .user-profile-right h2{
+      margin-top: 15px;
+      font-size: 20px;
+      color: rgb(88, 58, 58);
+      font-weight: bold;
+  }
+
+
+  .user-profile-main .user-profile-right p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+  .user-profile-main .user-profile-right .text-user-section {
+      font-size: 14px;
+      font-weight: bold;
+  }

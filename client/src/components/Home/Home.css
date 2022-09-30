@@ -1,0 +1,11 @@
+
+ .home-page-section {
+    padding: 0 80px 0 80px !important;
+}
+
+ @media (max-width: 1100px) {
+
+    .home-page-section {
+        padding: 5px !important;
+    }
+} 

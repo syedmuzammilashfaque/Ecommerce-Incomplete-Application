@@ -1,0 +1,43 @@
+.main-admin {
+  padding: 20px !important;
+}
+
+.admin_section {
+  margin: 20px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  padding: 10px !important;
+  border-radius: 4px;
+  background-color: #fff !important;
+}
+
+.admin_section .form-label {
+  margin-top: 10px !important;
+  font-size: 14px !important;
+  font-weight: bold;
+}
+
+.admin_section .form-control {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0, 0, 0, 0.13) !important;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+  background: rgb(253, 251, 251) !important;
+  border: 0 !important;
+  border-radius: 2px !important;
+  font-size: 15px !important;
+}
+
+.admin_section .form-control::placeholder {
+  color: rgb(170, 158, 158) !important;
+}
+
+.admin_section .admin_button {
+  background: #d3561d !important;
+  font-size: 17px !important;
+  border-radius: 3px !important;
+  width: 100% !important;
+  margin-top: 20px !important;
+}
+
+.admin_section .admin_button:hover {
+  background: #ac4d21 !important;
+  transition: 0.5s !important;
+}

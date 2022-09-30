@@ -1,0 +1,59 @@
+.auth-container {
+  padding: 30px 0px;
+}
+
+.auth-text-section {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.auth-text-section h5 {
+  color: rgb(95, 75, 75);
+  font-size: 18px !important;
+}
+
+.auth-text-section p {
+  color: rgb(108, 88, 88);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.auth-text-section p span {
+  cursor: pointer;
+  text-decoration: none;
+  background: none !important;
+  color: rgb(123, 156, 248) !important;
+  font-size: 17px;
+}
+.main-auth-section {
+  padding: 20px 2px 20px 2px;
+  display: flex;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px rgba(168, 166, 166, 0.8);
+  justify-content: space-around;
+  background: #fff;
+}
+
+.main-auth-section .text-section {
+  margin-top: 10px;
+}
+
+.main-auth-section .auth-google-button,
+.main-auth-section .auth-facebook-button {
+  margin-top: 10px;
+}
+
+.main-auth-section .auth-button {
+  background: #ff5e14;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.main-auth-section .auth-button:hover {
+  background: #ff5e14;
+  color: #fff;
+}
+
+.MuiTextField-root {
+  margin-top: 15px !important;
+}

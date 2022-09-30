@@ -1,0 +1,26 @@
+.error h1 {
+  font-size: 20px;
+  color: #d3561d;
+}
+
+.error a {
+  padding: 10px;
+  background: #d3561d;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.error a:hover {
+  background: #be501d;
+  color: #fff;
+}
+.error h1 span {
+  color: rgb(67, 74, 175);
+}
+
+.error a i {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px;
+}
